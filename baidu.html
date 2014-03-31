@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>百度一下，你就知道</title>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="yangshi.css" rel="stylesheet"/><script language="JavaScript" type="text/javascript" src="bootstrap/js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+$(".flip").click(function(){
+    $(".panel").slideToggle("slow");
+  });
+});
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css"> 
+div.panel,p.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+div.panel
+{
+height:120px;
+display:none;
+}
+</style>
+
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" >
+</script>
+ <![endif]-->
+ 
+</head>
+
+<body onload="MM_preloadImages('../dhm/baidudezuoye/zhaopian/cejiahao.png','../dhm/baidudezuoye/zhaopian/cehuahua.png','../dhm/baidudezuoye/zhaopian/cepifu.png','image/cejiahao.png','image/cehuahua.png','image/cepifu.png')">
+<iframe id="wetherinfo" name="wetherinfo" src="http://tianqi.3835.com/code/weather3.htm?id=&fc=2E93D9&imgurl=5&bgc=&days=1" frameBorder=0 width=320 height=20 marginwidth=0 marginheight=0 hspace=0 vspace=0 scrolling=no allowtransparency=true></iframe>
+
+<p class=s-weather-border STYLE2 id=u_sp><span class="STYLE6"><a class=user-name-top id=s_username_top href=http://i.baidu.com>DHM刁红曼</a>|<a href=/gaoji/preferences.html>搜索设置</a>|<a id=s_tradditional_link  class=last  href="/home/page/show/classic">传统首页</a></span></p>
+
+<hr>
+<div class="container">
+
+<div class="logo" align="center">
+	<img src="image/bdlogo.gif" />
+</div>
+
+<div class="search" align="center">
+	<div class="link">
+    	<a href="#">新闻&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">网页&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">贴吧&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">知道&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">音乐&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">图片&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">视频&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">地图&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">百科&nbsp;&nbsp;&nbsp;</a>
+		<a href="#">文库&nbsp;&nbsp;&nbsp;</a>
+        <a href="#">更多&gt;&gt;&nbsp;&nbsp;&nbsp;</a>
+    </div>
+	<form name=f id=form1 action=http://www.baidu.com/s  onsubmit="javascript:F.call('ps/sug','pssubmit');">
+	<input type=text name=wd id=kw1 maxlength=100 style="width:474px;" autocomplete=off>
+	<input type=hidden name=rsv_spt value=1> 
+	<input type=hidden name=issp value=1>
+	<input type=hidden name=rsv_bp value=0>
+	<input type=hidden name=ie value=utf-8>
+	<input type=hidden name=tn  value=baiduhome_pg >
+<span class=btn_wr>
+<input type=submit value="百度一下" id=su1 class=btn onMouseDown="this.className='btn btn_h'" onMouseOut="this.className='btn'">
+</span>
+</form>
+</div>	
+	
+    	<table width="731" height="215" border="0" align="right">
+          <tr>
+            <td width="86" height="48">&nbsp;</td>
+            <td width="86">&nbsp;</td>
+            <td width="495">&nbsp;</td>
+            <td width="46"><img src="image/cebbx.png" title="开宝箱" width="45" height="46" /></td>
+          </tr>
+          <tr>
+            <td height="47">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','image/cejiahao.png',1)"><img src="image/cejh.png" title="添加内容" name="Image6" width="45" height="45" border="0" id="Image6" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','../dhm/baidudezuoye/zhaopian/cejiahao.png',1)"></a></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','image/cehuahua.png',1)"><img src="image/cehua.png" title="意见反馈" name="Image7" width="44" height="44" border="0" id="Image7" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','../dhm/baidudezuoye/zhaopian/cehuahua.png',1)"></a></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image8','','image/cepifu.png',1)"><img src="image/cepf.png" title="设置背景" name="Image8" width="45" height="62" border="0" id="Image8" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','../dhm/baidudezuoye/zhaopian/cepifu.png',1)"></a></td>
+          </tr>
+  </table>
+    </form>
+</div>
+
+
+<div class="container">
+<h4 class="page-header">导航链接<small>&lt;table&gt;&nbsp;&nbsp;</small></h4>
+<table>
+	<thead>
+		<tr>
+		<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+			<th><div class="panel">
+<p><a href="http://www.sohu.com">搜狐</a></p>
+<p><a href="http://www.163.com">网易</a></p>
+<p><a href="http://www.qq.com">腾讯</a></p>
+</div>
+<p class="flip">*请点击这里选择或隐藏你关心的门户网站*</p></th>
+<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+			<th><div class="panel">
+<p><a href="http://www.jd.com">京东</a></p>
+<p><a href="http://www.z.cn">亚马逊</a></p>
+<p><a href="http://www.dangdang.com">当当</a></p>
+</div>
+<p class="flip">*请点击这里选择或隐藏你关心的门购物网站*</p>
+			</th>
+<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+			<th><div class="panel">
+<p><a href="http://www.nuomi.com/?utm_source=360&utm_medium=mz&utm_campaign=daohang&cid=000304">糯米网</a></p>
+<p><a href="http://www.meituan.com/?utm_campaign=hao.360.cn&utm_medium=nav&utm_source=hao.360.cn&utm_content=top">美团</a></p>
+<p><a href="http://tuan.360.cn/?fname=hao_fanmous_tuan_0116gd&eee=hao_fanmous_tuan_0116gd">360团购网</a></p>
+</div>
+<p class="flip">*请点击这里选择或隐藏你关心的团购网站*</p></th>
+		<tr>
+	</thead>
+</table>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<div class="container">
+<h4 class="page-header">新闻预览<small>&lt;table&gt;&nbsp;&nbsp;</small></h4>
+</div>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span2">
+		</div>
+		<div class="span6">
+			<ul class="thumbnails">
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="image/deguo.jpg" />
+						<div class="caption">
+							<h3>
+								习近平在德国发表演讲 强调中国坚定不移走和平发展道路
+							</h3>
+							<p>
+								柏林3月28日电 (记者 张朔)当地时间28日下午，中国国家主席习近平应德国科尔伯基金会邀请在柏林发表演讲，阐述中国和平发展道路和独立自主的和平外交政策，强调中国走和平发展道路是中华民族热爱和平文化传统的继承和发扬。
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">分享</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="image/fubai.jpg" />
+						<div class="caption">
+							<h3>
+								三峡集团两高层同时被免 网友称幕后或有大老虎
+							</h3>
+							<p>
+								强国论坛网友“新闻剑客”：从这次被“巡视”出的问题、被媒体透露出来的问题来看，三峡集团问题多多，幕后不排除有“老虎”，甚至有“大老虎”、“老老虎”的存在。<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">分享</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="image/mahang.jpg" />
+						<div class="caption">
+							<h3>
+								澳方称飞机在搜索区发现多种漂浮物 将连夜分析
+							</h3>
+							<p>
+								3月28日电 据外媒报道，澳大利亚海事安全局28日称，在当天对失联马航MH370航班的搜救行动中，有5架飞机发现了多种漂浮物，将连夜对其进行分析。
+据报道，在当天出动搜救的10架飞机中，有5架飞机发现了颜色各异的漂浮物。<p>&nbsp;</p><p>&nbsp;</p>
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">分享</a>
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="span4">
+		</div>
+	</div>
+</div>
+
+
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  版权说明
+</button>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">版权说明</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-primary">学校：北京交通大学</p>
+		 <p class="text-info">课程：web程序设计</p>
+		 <p class="text-warning">姓名：刁红曼</p>
+		 <p class="text-danger">学号：12281137</p>
+		  <p><strong>----&copy;仅用于作业用----</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a href="#login" date-toggle="modal" class="btn btn-primary">版权说明</a>
+<div class="modal hide" id="login">
+<div class="modal-header">
+<a href="#" class="close" data-dismiss="modal">*</a>
+<h4>版权说明</h4>
+</div>
+<div class="modal-body">
+<form class="form-horizontal">
+<div class="control-group">
+<p class="text-primary">学校：北京交通大学</p>
+<div class="controls">
+<input type="text">
+</div>
+</div>
+<div class="control-group">
+                <p class="text-info">课程：web程序设计</p>
+<div class="controls">
+<input type="text">
+</div>
+</div>
+<div class="control-group">
+                <p class="text-warning">姓名：刁红曼</p>
+<div class="controls">
+<input type="text">
+</div>
+</div>
+<div class="control-group">
+                <p class="text-danger">学号：12281137</p>
+<div class="controls">
+<input type="text">
+</div>
+</div>
+<div class="control-group">
+                <p><strong>----&copy;仅用于作业用----</strong></p>
+<div class="controls">
+<input type="text">
+</div>
+</div>
+</form>
+</div>
+</div>
+
+<div class="footer">
+	<p align="center"><a href="#">把百度设为主页</a></p>
+    <p align="center"><a href="#">加入百度推广</a> <a href="#"> 搜索风云榜</a> <a href="#">关于百度</a> <a href="#"> About Baidu</a> <a href="#">加入开放首页</a></p>
+</div>
+<div align="center" class="STYLE2">&#169;2014 Baidu 使用百度前必读</a> 京ICP证030173号 <em class=s-bottom-copyright>&nbsp;&nbsp;&nbsp;&nbsp;</em></div>
+</div>
+
+<script language="JavaScript" type="text/javascript" src="/bootstrap/js/jquery-1.7.2.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
